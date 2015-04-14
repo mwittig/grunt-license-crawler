@@ -76,5 +76,5 @@ Export data as CSV to the given file path. Be cautious, the task will overwrite 
 
 ##History
 
-* 201504140, V0.0.1
+* 20150414, V0.0.1
     * Initial Version
