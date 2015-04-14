@@ -1,0 +1,38 @@
+{
+  "name": "grunt-license-crawler",
+  "version": "0.0.1",
+  "description": "Analyzes license information for multiple node.js modules (package.json files) as part of your software project.",
+  "main": "./tasks/grunt-license-crawler.js",
+  "dependencies": {
+    "npm-license-crawler": "~0.0.8"
+  },
+  "devDependencies": {
+    "vows": "*",
+    "istanbul": "*",
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "istanbul cover --print both vows --"
+  },
+  "author": "Marcus Wittig",
+  "bugs": {
+    "url": "http://github.com/mwittig/grunt-license-crawler/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/mwittig/grunt-license-crawler/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mwittig/grunt-license-crawler.git"
+  },
+  "keywords": [
+    "license",
+    "npm",
+    "checker",
+    "crawler",
+    "gruntplugin"
+  ]
+}
