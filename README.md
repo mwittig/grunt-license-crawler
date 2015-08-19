@@ -78,3 +78,5 @@ Export data as CSV to the given file path. Be cautious, the task will overwrite 
 
 * 20150414, V0.0.1
     * Initial Version
+* 20150819, V0.0.2
+    * Updated to npm-license-crawler 1.0.0 (thanks @Kienz)
