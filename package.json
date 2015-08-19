@@ -1,6 +1,6 @@
 {
   "name": "grunt-license-crawler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Analyzes license information for multiple node.js modules (package.json files) as part of your software project.",
   "main": "./tasks/grunt-license-crawler.js",
   "dependencies": {
