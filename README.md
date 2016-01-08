@@ -1,5 +1,5 @@
 # grunt-license-crawler
-Grunt task for npm-license-crawler. Analyzes license information for multiple node.js modules (package.json files) as part of your software project.
+Grunt task for [npm-license-crawler](https://www.npmjs.com/package/npm-license-crawler). Analyzes license information for multiple node.js modules (package.json files) as part of your software project.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -46,7 +46,7 @@ Path to the directory the license search should start from. Multiple paths can b
 #### options.exclude
 
 Type: `Array<String>`
-Default Value: undefined
+Default Value: `undefined`
 
 Path to a directory to be excluded (and its subdirectories) from the search. Multiple paths can be specified.
 
@@ -64,13 +64,13 @@ Only generate a list of third-party licenses, i.e., only list the dependencies d
 
 #### options.json
 Type: `String`
-Default Value: undefined
+Default Value: `undefined`
 
 Export data as JSON to the given file path. Be cautious, the task will overwrite file if exists!
 
 #### options.csv
 Type: `String`
-Default Value: undefined
+Default Value: `undefined`
 
 Export data as CSV to the given file path. Be cautious, the task will overwrite file if exists!
 
@@ -79,4 +79,8 @@ Export data as CSV to the given file path. Be cautious, the task will overwrite 
 * 20150414, V0.0.1
     * Initial Version
 * 20150819, V0.0.2
-    * Updated to npm-license-crawler 1.0.0 (thanks @Kienz)
+    * Updated to npm-license-crawler 0.1.0 (thanks @Kienz)
+* 20160108, V0.0.3
+    * Revised README
+    * Updated to npm-license-crawler 0.1.1
+    * Updated license info as part of package descriptor. Now using SPDX license tag.
