@@ -4,12 +4,12 @@
   "description": "Analyzes license information for multiple node.js modules (package.json files) as part of your software project.",
   "main": "./tasks/grunt-license-crawler.js",
   "dependencies": {
-    "npm-license-crawler": "^0.1.1"
+    "npm-license-crawler": "^0.1.3"
   },
   "devDependencies": {
     "vows": "*",
     "istanbul": "*",
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.5"
   },
   "scripts": {
     "test": "istanbul cover --print both vows --"
