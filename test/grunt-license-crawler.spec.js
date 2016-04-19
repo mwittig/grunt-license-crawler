@@ -1,7 +1,8 @@
 /* jshint undef: true */
 /* global describe, it */
+'use strict';
+
 describe('#license', function () {
-    'use strict';
     it('should exist', function () {
     });
 });

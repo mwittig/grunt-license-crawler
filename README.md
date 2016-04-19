@@ -74,13 +74,18 @@ Default Value: `undefined`
 
 Export data as CSV to the given file path. Be cautious, the task will overwrite file if exists!
 
-##History
+## History
 
 * 20150414, V0.0.1
     * Initial Version
 * 20150819, V0.0.2
-    * Updated to npm-license-crawler 0.1.0 (thanks @Kienz)
+    * Updated to npm-license-crawler@0.1.0 (thanks @Kienz)
 * 20160108, V0.0.3
     * Revised README
-    * Updated to npm-license-crawler 0.1.1
+    * Updated to npm-license-crawler@0.1.1
     * Updated license info as part of package descriptor. Now using SPDX license tag.
+* 20160311, V0.0.4
+    * Updated to npm-license-crawler@0.1.3
+* 20160419, V0.0.5
+    * Updated to npm-license-crawler@0.1.4 which includes bug fix for CSV files
+    * Added travis-ci build descriptor
