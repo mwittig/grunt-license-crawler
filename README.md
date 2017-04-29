@@ -1,4 +1,6 @@
 # grunt-license-crawler
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/grunt-license-crawler.svg)](https://greenkeeper.io/)
 Grunt task for [npm-license-crawler](https://www.npmjs.com/package/npm-license-crawler). Analyzes license information for multiple node.js modules (package.json files) as part of your software project.
 
 ## Getting Started
