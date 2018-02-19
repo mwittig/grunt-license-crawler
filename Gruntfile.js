@@ -9,7 +9,8 @@ module.exports = function(grunt) {
         'license-crawler': {
             all: {
                 start: ['.'],
-                json: "LICENSES.json"
+                json: "LICENSES.json",
+                omitVersion: false
             }
         }
     });
