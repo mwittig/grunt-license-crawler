@@ -74,6 +74,25 @@ Default Value: `undefined`
 
 Export data as CSV to the given file path. Be cautious, the task will overwrite file if exists!
 
+#### options.omitVersion
+Type: `Boolean`
+Default value: `false`
+
+Don't display versions in result (e.g. "npm-license-crawler@0.1.5" becomes "npm-license-crawler")
+
+#### options.onlyDirectDependencies
+Type: `Boolean`
+Default value: `false`
+
+Show only direct dependencies licenses, i.e., don't list dependencies of dependencies.
+
+#### options.relativeLicensePath
+Type: `Boolean`
+Default value: `false`
+
+Output the relative file path for license files.
+
+
 ## History
 
 * 20150414, V0.0.1
@@ -89,3 +108,6 @@ Export data as CSV to the given file path. Be cautious, the task will overwrite 
 * 20160419, V0.0.5
     * Updated to npm-license-crawler@0.1.4 which includes bug fix for CSV files
     * Added travis-ci build descriptor
+* 20180220, V0.0.6
+    * Updated to npm-license-crawler@0.1.7 which includes new options
+    * Added documentation for new options
