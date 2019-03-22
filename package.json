@@ -9,7 +9,7 @@
   "devDependencies": {
     "vows": "*",
     "istanbul": "*",
-    "grunt": "~1.0.1"
+    "grunt": "~1.0.4"
   },
   "scripts": {
     "test": "node node_modules/grunt/bin/grunt test"
